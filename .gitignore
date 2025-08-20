@@ -1,0 +1,79 @@
+# Entornos virtuales de Python
+venv/
+venv_*/
+.venv/
+env/
+ENV/
+.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch modelos entrenados
+*.pth
+*.pt
+models/
+checkpoints/
+
+# TensorFlow/Keras (ya no los usamos pero por si acaso)
+*.h5
+*.hdf5
+saved_model/
+
+# Logs y TensorBoard
+logs/
+runs/
+events.out.tfevents.*
+
+# Archivos de sistema Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de sistema Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Carpeta de Claude (temporal)
+.claude/
+
+# Instaladores descargados
+*.exe
+*.msi
+*.dmg
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos grandes de datasets (opcional)
+# *.pdf
+# *_texto.txt
+
+# Variables de entorno
+.env
+.env.local
